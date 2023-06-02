@@ -71,21 +71,21 @@
 # ноутбук
 #     12
 
-word = input("Введите слово, подсчитаем его ценность: ").upper()
+# word = input("Введите слово, подсчитаем его ценность: ").upper()
 
-dict = {'AEIOULNSTRАВЕИНОРСТ':1,
-        'DGДКЛМПУ':2,
-        'BCMPБГЁЬЯ':3,
-        'FHVWYЙЫ':4,
-        'KЖЗХЦЧ':5,
-        'JXШЭЮ':8,
-        'QZФЩЪ':10}
+# dict = {'AEIOULNSTRАВЕИНОРСТ':1,
+#         'DGДКЛМПУ':2,
+#         'BCMPБГЁЬЯ':3,
+#         'FHVWYЙЫ':4,
+#         'KЖЗХЦЧ':5,
+#         'JXШЭЮ':8,
+#         'QZФЩЪ':10}
 
-result = 0
+# result = 0
 
-for letter in word:
-    for key,value in dict.items():
-        if letter in key:
-            result += value
+# for letter in word:
+#     for key,value in dict.items():
+#         if letter in key:
+#             result += value
 
-print(f'Ценность Вашего слова составляет {result} баллов.')
+# print(f'Ценность Вашего слова составляет {result} баллов.')
